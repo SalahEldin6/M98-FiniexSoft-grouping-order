@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-erp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "dev-debug": "node --inspect node_modules/.bin/nuxt"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/composition-api": "^0.33.1",
+    "chart.js": "^2.9.4",
+    "element-ui": "^2.15.12",
+    "focus-trap": "^7.2.0",
+    "nuxt": "^2.15.8",
+    "nuxt-i18n": "^6.28.1",
+    "tafgeetjs": "^2.1.0",
+    "vee-validate": "^3.4.14",
+    "vue-barcode": "^1.3.0"
+  },
+  "devDependencies": {
+    "nuxt-webpack-optimisations": "^2.2.5",
+    "sass": "^1.57.1",
+    "sass-loader": "^10.4.1",
+    "tachyons-spacing": "^6.0.5",
+    "unplugin-auto-import": "^0.12.1",
+    "vuex-map-fields": "^1.4.1"
+  }
+}

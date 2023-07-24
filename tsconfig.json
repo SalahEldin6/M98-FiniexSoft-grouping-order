@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "preserve",
+    "target": "ESNext",
+    "outDir": "target"
+  },
+  "exclude": ["node_modules", "target"],
+  "vueCompilerOptions": {
+    "target": 2.7 // target = 2.7 for Vue >= 2.6.14. target = 2 for older versions
+  }
+}
